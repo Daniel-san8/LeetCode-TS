@@ -36,27 +36,6 @@ type Counter = {
     reset: () => number,
 }
 
-// function createCounter(init: number): Counter {
-//     const initReset = init
-//     return {
-//         increment: () => {
-//             console.log('initReset', initReset)
-//             console.log('init', init)
-//             return init + 1
-//         },
-//         decrement: () => {
-//                         console.log('initReset', initReset)
-//                         console.log('init', init)
-//             return init - 1
-//         },
-//         reset: () => {
-//                         console.log('initReset', initReset)
-//                         console.log('init', init)
-//             return initReset
-//         }
-//     }
-// };
-
 function createCounter(init: number): Counter {
     const initReset = init
 
