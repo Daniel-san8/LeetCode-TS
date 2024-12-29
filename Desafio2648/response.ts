@@ -36,5 +36,5 @@ function* fibGenerator(): Generator<number, any, number> {
 
 
 const gen = fibGenerator();
-gen.next().value 
+gen.next().value;
 gen.next().value;
