@@ -46,4 +46,3 @@ function chunk(arr: Obj[], size: number): Obj[][] {
 
     return arrChunked
 };
-''
